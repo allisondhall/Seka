@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Seka</string>
+
+    <string name="seka">SEKA</string>
 </resources>
