@@ -8,14 +8,47 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hfad.seka.MainActivity"
-    android:background="#86BBD8">
+    android:background="#86BBD8"
+    android:backgroundTint="#86BBD8"
+    android:clickable="true">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/seka"
-        android:textSize="110dp"
-        android:layout_marginTop="44dp"
+        android:textSize="88dp"
         android:textColor="#FDD03A"
-        android:layout_alignParentTop="true" />
+        android:layout_marginTop="129dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button"
+        android:clickable="true"
+        android:elegantTextHeight="true"
+        android:height="20dp"
+        android:textSize="30sp"
+        android:paddingStart="40sp"
+        android:paddingEnd="40sp"
+        android:paddingTop="10sp"
+        android:singleLine="true"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#86BBD8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEKA"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:textColor="#1564a0" />
 </RelativeLayout>
