@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/seka"
-        android:textSize="88dp"
+        android:textSize="65dp"
         android:textColor="#FDD03A"
         android:layout_marginTop="129dp"
         android:id="@+id/textView"
@@ -51,4 +51,13 @@
         android:layout_alignParentEnd="true"
         android:textSize="30dp"
         android:textColor="#1564a0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/pawprint"
+        android:layout_above="@+id/textView2"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
 </RelativeLayout>

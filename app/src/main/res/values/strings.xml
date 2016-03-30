@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Seka</string>
+    <string name="app_name">SEKA</string>
 
-    <string name="seka">App Title</string>
+    <string name="seka">Pawdoption</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="Fact">Fact</string>
 </resources>
